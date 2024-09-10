@@ -1,56 +1,28 @@
-import { createTheme } from "@material-ui/core/styles";
+"use client";
+import { createTheme, Theme } from "@mui/material/styles";
 
-const defaultTheme = createTheme({
+export const theme: Theme = createTheme({
   breakpoints: {
     values: {
-      xs: 0,
-      sm: 768,
-      md: 1239,
-      lg: 1240,
-      xl: 1920,
+      xs: 0, // Extra small devices (phones)
+      sm: 600, // Small devices (tablets)
+      md: 960, // Medium devices (desktops)
+      lg: 1280, // Large devices (larger desktops)
+      xl: 1920, // Extra large devices (large desktops)
     },
   },
   palette: {
     primary: {
-      main: "#2E86BD",
+      main: "#fff",
     },
-
     secondary: {
-      main: "#E52428",
+      main: "#000",
     },
-
     background: {
       default: "#fff",
     },
   },
   typography: {
     fontFamily: "Montserrat",
-
-    h3: {
-      fontSize: "1.5rem",
-      fontWeight: 500,
-
-      "@media (min-width:600px)": {
-        fontSize: "2rem",
-      },
-
-      "@media (min-width: 959.95px)": {
-        fontSize: "3rem",
-      },
-    },
-
-    body1: {
-      fontSize: "0.875rem",
-
-      "@media (min-width:600px)": {
-        fontSize: "1rem",
-      },
-
-      "@media (min-width: 959.95px)": {
-        fontSize: "1.125rem",
-      },
-    },
   },
 });
-
-const { breakpoints } = defaultTheme;

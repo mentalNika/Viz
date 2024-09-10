@@ -110,7 +110,7 @@
     source-map "^0.5.7"
     stylis "4.2.0"
 
-"@emotion/cache@^11.13.0", "@emotion/cache@^11.13.1":
+"@emotion/cache@^11.11.0", "@emotion/cache@^11.13.0", "@emotion/cache@^11.13.1":
   version "11.13.1"
   resolved "https://registry.npmjs.org/@emotion/cache/-/cache-11.13.1.tgz"
   integrity sha512-iqouYkuEblRcXmylXIwwOodiEK5Ifl7JcX7o6V4jI3iW4mLXX3dmt5xwBtIkJiQEXFAI+pC8X0i67yiPkH9Ucw==
@@ -138,7 +138,7 @@
   resolved "https://registry.npmjs.org/@emotion/memoize/-/memoize-0.9.0.tgz"
   integrity sha512-30FAj7/EoJ5mwVPOWhAyCX+FPfMDrVecJAM+Iw9NRoSl4BBAQeqj4cApHHUXOVvIPgLVDsCFoz/hGD+5QQD1GQ==
 
-"@emotion/react@^11.0.0-rc.0", "@emotion/react@^11.13.3", "@emotion/react@^11.4.1", "@emotion/react@^11.5.0":
+"@emotion/react@^11.0.0-rc.0", "@emotion/react@^11.11.4", "@emotion/react@^11.13.3", "@emotion/react@^11.4.1", "@emotion/react@^11.5.0":
   version "11.13.3"
   resolved "https://registry.npmjs.org/@emotion/react/-/react-11.13.3.tgz"
   integrity sha512-lIsdU6JNrmYfJ5EbUCf4xW1ovy5wKQ2CkPRM4xogziOxH1nXxBSjpC9YqbFAP7circxMfYp+6x676BqWcEiixg==
@@ -307,6 +307,13 @@
   dependencies:
     "@babel/runtime" "^7.25.0"
 
+"@mui/material-nextjs@^6.0.2":
+  version "6.0.2"
+  resolved "https://registry.npmjs.org/@mui/material-nextjs/-/material-nextjs-6.0.2.tgz"
+  integrity sha512-P5ZZ6P2UXstuW746J9uLkwAHIB/HKnjWcn4I4kF8uFinGpIbEt8BC58BCSqlfesB/pHNxJqaSPWDB4wBBFc42g==
+  dependencies:
+    "@babel/runtime" "^7.25.0"
+
 "@mui/material@^6.0.2":
   version "6.0.2"
   resolved "https://registry.npmjs.org/@mui/material/-/material-6.0.2.tgz"
@@ -387,10 +394,15 @@
   dependencies:
     glob "10.3.10"
 
-"@next/swc-win32-x64-msvc@14.2.6":
+"@next/swc-linux-x64-gnu@14.2.6":
   version "14.2.6"
-  resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.2.6.tgz"
-  integrity sha512-NANtw+ead1rSDK1jxmzq3TYkl03UNK2KHqUYf1nIhNci6NkeqBD4s1njSzYGIlSHxCK+wSaL8RXZm4v+NF/pMw==
+  resolved "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.2.6.tgz"
+  integrity sha512-InosKxw8UMcA/wEib5n2QttwHSKHZHNSbGcMepBM0CTcNwpxWzX32KETmwbhKod3zrS8n1vJ+DuJKbL9ZAB0Ag==
+
+"@next/swc-linux-x64-musl@14.2.6":
+  version "14.2.6"
+  resolved "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-14.2.6.tgz"
+  integrity sha512-d4QXfJmt5pGJ7cG8qwxKSBnO5AXuKAFYxV7qyDRHnUNvY/dgDh+oX292gATpB2AAHgjdHd5ks1wXxIEj6muLUQ==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -2091,7 +2103,7 @@ natural-compare@^1.4.0:
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next@14.2.6:
+"next@^13.0.0 || ^14.0.0", next@14.2.6:
   version "14.2.6"
   resolved "https://registry.npmjs.org/next/-/next-14.2.6.tgz"
   integrity sha512-57Su7RqXs5CBKKKOagt8gPhMM3CpjgbeQhrtei2KLAA1vTNm7jfKS+uDARkSW8ZETUflDCBIsUKGSyQdRs4U4g==
