@@ -1,6 +1,8 @@
 import React from "react";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
-import { theme } from "../components/theme/theme";
+import { lightTheme } from "../styles/theme";
+import "@/styles/global.scss";
+
 import { ThemeProvider } from "@mui/material/styles";
 
 export default function RootLayout({
@@ -10,9 +12,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
-      <body>
+      <body
+        style={{
+          fontFamily: "Montserrat, sans-serif",
+          backgroundColor: "ivory",
+        }}
+      >
         <AppRouterCacheProvider>
-          <ThemeProvider theme={theme}>{children} </ThemeProvider>
+          <ThemeProvider theme={lightTheme}>{children} </ThemeProvider>
         </AppRouterCacheProvider>
       </body>
     </html>
