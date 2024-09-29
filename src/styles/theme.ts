@@ -2,7 +2,7 @@
 import { createTheme, ThemeOptions } from "@mui/material/styles";
 
 const commonSettings: ThemeOptions = {
-  breakpoints: { values: { xs: 0, sm: 768, md: 992, lg: 1600, xl: 1920 } },
+  breakpoints: { values: { xs: 0, sm: 768, md: 992, lg: 1700, xl: 1920 } },
 };
 
 const lightTheme = createTheme({
